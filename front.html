@@ -1,0 +1,558 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:"Liberation Sans Narrow Bold",serif;font-size:28.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Liberation Sans Narrow Bold",serif;font-size:28.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:"Liberation Sans Narrow Bold",serif;font-size:18.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:"Liberation Sans Narrow Bold",serif;font-size:18.3px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(88,88,120);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(88,88,120);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Liberation Sans Narrow Bold",serif;font-size:13.1px;color:rgb(31,0,127);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Liberation Sans Narrow Bold",serif;font-size:13.1px;color:rgb(31,0,127);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,0,31);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,0,31);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(47,127,127);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(47,127,127);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(15,95,181);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(15,95,181);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(6,70,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(6,70,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(63,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(63,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,139,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,139,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(41,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(41,95,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,0,31);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,0,31);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Liberation Sans Narrow Bold",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:"Liberation Sans Narrow Bold",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(114,128,144);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(114,128,144);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,71,170);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,71,170);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:"Liberation Sans Narrow Bold",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:"Liberation Sans Narrow Bold",serif;font-size:16.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:"Liberation Sans Narrow Bold",serif;font-size:14.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:"Liberation Sans Narrow Bold",serif;font-size:14.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:"OpenSymbol",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:"OpenSymbol",serif;font-size:13.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:"OpenSymbol",serif;font-size:12.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:"OpenSymbol",serif;font-size:12.1px;color:rgb(0,24,57);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_026{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(113,132,182);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(113,132,182);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(234,186,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(234,186,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:"OpenSymbol",serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:"OpenSymbol",serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_030{font-family:"Liberation Sans Narrow",serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:"Liberation Sans Narrow Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_032{font-family:"Liberation Sans Narrow Italic",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_034{font-family:"Liberation Sans Narrow",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:"Liberation Sans Narrow",serif;font-size:11.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:"Liberation Sans Narrow",serif;font-size:11.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:"Liberation Sans Narrow",serif;font-size:11.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:"Liberation Sans Narrow",serif;font-size:11.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:"Liberation Sans Narrow",serif;font-size:11.6px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:"Liberation Sans Narrow",serif;font-size:11.6px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:"Liberation Sans Narrow",serif;font-size:11.6px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_038{font-family:"OpenSymbol",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:"OpenSymbol",serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:"Liberation Sans Narrow",serif;font-size:12.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(234,186,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(234,186,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(208,240,168);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:"Liberation Sans Narrow",serif;font-size:10.1px;color:rgb(255,196,142);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="front/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background01.jpg" width=595 height=841></div>
+<div style="position:absolute;left:175.70px;top:66.11px" class="cls_002"><span class="cls_002">Python  e OpenCV</span></div>
+<div style="position:absolute;left:56.80px;top:116.91px" class="cls_003"><span class="cls_003">Python e Pacotes Necessários</span></div>
+<div style="position:absolute;left:56.80px;top:394.21px" class="cls_004"><span class="cls_004"># CARREGANDO, EXIBINDO E SALVANDO AS IMAGENS:</span></div>
+<div style="position:absolute;left:56.80px;top:408.91px" class="cls_004"><span class="cls_004"># python load_display_save.py --image ../images/trex.png</span></div>
+<div style="position:absolute;left:56.80px;top:438.41px" class="cls_004"><span class="cls_004"># Importa os pacotes necessários</span></div>
+<div style="position:absolute;left:56.80px;top:453.21px" class="cls_005"><span class="cls_005">import</span><span class="cls_006"> argparse</span></div>
+<div style="position:absolute;left:56.80px;top:467.91px" class="cls_005"><span class="cls_005">import</span><span class="cls_006"> cv2</span></div>
+<div style="position:absolute;left:56.80px;top:497.41px" class="cls_004"><span class="cls_004"># Parser do argumento</span></div>
+<div style="position:absolute;left:56.80px;top:512.21px" class="cls_006"><span class="cls_006">ap </span><span class="cls_007">=</span><span class="cls_006"> argparse</span><span class="cls_007">.</span><span class="cls_006">ArgumentParser</span><span class="cls_007">()</span></div>
+<div style="position:absolute;left:56.80px;top:526.91px" class="cls_006"><span class="cls_006">ap</span><span class="cls_007">.</span><span class="cls_006">add_argument</span><span class="cls_007">(</span><span class="cls_008">"-i"</span><span class="cls_007">,</span><span class="cls_006"> </span><span class="cls_008">"--image"</span><span class="cls_007">,</span><span class="cls_006"> required </span><span class="cls_007">=</span><span class="cls_006"> </span><span class="cls_009">True</span><span class="cls_007">,</span></div>
+<div style="position:absolute;left:119.20px;top:541.71px" class="cls_010"><span class="cls_010">help</span><span class="cls_006"> </span><span class="cls_007">=</span><span class="cls_006"> </span><span class="cls_008">"Path to the image"</span><span class="cls_007">)</span></div>
+<div style="position:absolute;left:56.80px;top:556.41px" class="cls_006"><span class="cls_006">args </span><span class="cls_007">=</span><span class="cls_006"> </span><span class="cls_010">vars</span><span class="cls_007">(</span><span class="cls_006">ap</span><span class="cls_007">.</span><span class="cls_006">parse_args</span><span class="cls_007">())</span></div>
+<div style="position:absolute;left:56.80px;top:585.91px" class="cls_004"><span class="cls_004"># Carrega a imagem:</span></div>
+<div style="position:absolute;left:56.80px;top:600.71px" class="cls_006"><span class="cls_006">image </span><span class="cls_007">=</span><span class="cls_006"> cv2</span><span class="cls_007">.</span><span class="cls_006">imread</span><span class="cls_007">(</span><span class="cls_006">args</span><span class="cls_007">[</span><span class="cls_008">"image"</span><span class="cls_007">])</span></div>
+<div style="position:absolute;left:56.80px;top:615.41px" class="cls_005"><span class="cls_005">print</span><span class="cls_007">(</span><span class="cls_008">"width: {} pixels"</span><span class="cls_007">.</span><span class="cls_006">format</span><span class="cls_007">(</span><span class="cls_006">image</span><span class="cls_007">.</span><span class="cls_006">shape</span><span class="cls_007">[</span><span class="cls_011">1</span><span class="cls_007">]))</span></div>
+<div style="position:absolute;left:56.80px;top:630.21px" class="cls_005"><span class="cls_005">print</span><span class="cls_007">(</span><span class="cls_008">"height: {} pixels"</span><span class="cls_007">.</span><span class="cls_006">format</span><span class="cls_007">(</span><span class="cls_006">image</span><span class="cls_007">.</span><span class="cls_006">shape</span><span class="cls_007">[</span><span class="cls_011">0</span><span class="cls_007">]))</span></div>
+<div style="position:absolute;left:56.80px;top:644.91px" class="cls_005"><span class="cls_005">print</span><span class="cls_007">(</span><span class="cls_008">"channels: {}"</span><span class="cls_007">.</span><span class="cls_006">format</span><span class="cls_007">(</span><span class="cls_006">image</span><span class="cls_007">.</span><span class="cls_006">shape</span><span class="cls_007">[</span><span class="cls_011">2</span><span class="cls_007">]))</span></div>
+<div style="position:absolute;left:56.80px;top:674.41px" class="cls_004"><span class="cls_004"># Exibe a imagem e aguarda por um pressionar de teclas</span></div>
+<div style="position:absolute;left:56.80px;top:689.21px" class="cls_006"><span class="cls_006">cv2</span><span class="cls_007">.</span><span class="cls_006">imshow</span><span class="cls_007">(</span><span class="cls_008">"Image"</span><span class="cls_007">,</span><span class="cls_006"> image</span><span class="cls_007">)</span></div>
+<div style="position:absolute;left:56.80px;top:703.91px" class="cls_006"><span class="cls_006">cv2</span><span class="cls_007">.</span><span class="cls_006">waitKey</span><span class="cls_007">(</span><span class="cls_011">0</span><span class="cls_007">)</span></div>
+<div style="position:absolute;left:56.80px;top:733.41px" class="cls_004"><span class="cls_004"># Salva a Imagem, o OpenCV trata o formato automaticamente</span></div>
+<div style="position:absolute;left:56.80px;top:748.21px" class="cls_006"><span class="cls_006">cv2</span><span class="cls_007">.</span><span class="cls_006">imwrite</span><span class="cls_007">(</span><span class="cls_008">"newimage.jpg"</span><span class="cls_007">,</span><span class="cls_006"> image</span><span class="cls_007">)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:851px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background02.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Básico acerca de Imagens</span></div>
+<div style="position:absolute;left:56.80px;top:116.81px" class="cls_012"><span class="cls_012">Pixels são a unidade básica de informação:</span></div>
+<div style="position:absolute;left:56.80px;top:208.21px" class="cls_012"><span class="cls_012">Os pixels são distribuídos na imagem de acordo com o</span></div>
+<div style="position:absolute;left:56.80px;top:224.11px" class="cls_012"><span class="cls_012">sistema de coordenadas descrito ao lado:</span></div>
+<div style="position:absolute;left:56.80px;top:269.81px" class="cls_012"><span class="cls_012">Um cuidado necessário é que o OpenCV armazena a tupla</span></div>
+<div style="position:absolute;left:56.80px;top:285.61px" class="cls_012"><span class="cls_012">RGB em ordem inversa , a BGR. Por exemplo, é possível</span></div>
+<div style="position:absolute;left:56.80px;top:301.51px" class="cls_012"><span class="cls_012">manipular um pixel individual de uma imagem da seguinte</span></div>
+<div style="position:absolute;left:56.80px;top:317.31px" class="cls_012"><span class="cls_012">forma:</span></div>
+<div style="position:absolute;left:56.80px;top:338.81px" class="cls_006"><span class="cls_006">(b, g, r) = image [</span><span class="cls_013">0, 0</span><span class="cls_006">]</span></div>
+<div style="position:absolute;left:56.80px;top:353.61px" class="cls_006"><span class="cls_006">image[</span><span class="cls_013">0, 0</span><span class="cls_006">] = (</span><span class="cls_013">0, 0, 255</span><span class="cls_006">)</span></div>
+<div style="position:absolute;left:56.80px;top:392.51px" class="cls_012"><span class="cls_012">Também é possível utilizar fatiamento no Numpy para</span></div>
+<div style="position:absolute;left:56.80px;top:408.41px" class="cls_012"><span class="cls_012">acessar partes de uma imagem:</span></div>
+<div style="position:absolute;left:56.80px;top:429.91px" class="cls_006"><span class="cls_006">image[</span><span class="cls_013">0:100, 0:100</span><span class="cls_006">] = (</span><span class="cls_013">0, 255, 0</span><span class="cls_006">)</span></div>
+<div style="position:absolute;left:56.80px;top:455.21px" class="cls_014"><span class="cls_014">Isso se deve ao fato de que o OpenCV interpreta imagens</span></div>
+<div style="position:absolute;left:56.80px;top:471.01px" class="cls_014"><span class="cls_014">como arrays Numpy.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:1702px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background03.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Desenhando</span></div>
+<div style="position:absolute;left:56.80px;top:115.51px" class="cls_015"><span class="cls_015">import</span><span class="cls_016"> numpy </span><span class="cls_015">as</span><span class="cls_016"> np</span></div>
+<div style="position:absolute;left:56.80px;top:130.21px" class="cls_015"><span class="cls_015">import</span><span class="cls_016"> cv2</span></div>
+<div style="position:absolute;left:56.80px;top:159.71px" class="cls_017"><span class="cls_017"># Cria uma imagem vazia:</span></div>
+<div style="position:absolute;left:56.80px;top:174.51px" class="cls_016"><span class="cls_016">canvas = np.zeros((300, 300, 3),</span></div>
+<div style="position:absolute;left:56.80px;top:189.21px" class="cls_016"><span class="cls_016">dtype = </span><span class="cls_018">"uint8"</span><span class="cls_016">)</span></div>
+<div style="position:absolute;left:56.80px;top:218.71px" class="cls_017"><span class="cls_017"># Definição das cores:</span></div>
+<div style="position:absolute;left:56.80px;top:233.51px" class="cls_016"><span class="cls_016">blue</span></div>
+<div style="position:absolute;left:103.60px;top:233.51px" class="cls_016"><span class="cls_016">= (255, 0, 0)</span></div>
+<div style="position:absolute;left:56.80px;top:248.21px" class="cls_016"><span class="cls_016">green = (0, 255, 0)</span></div>
+<div style="position:absolute;left:56.80px;top:263.01px" class="cls_016"><span class="cls_016">red</span></div>
+<div style="position:absolute;left:103.60px;top:263.01px" class="cls_016"><span class="cls_016">= (0, 0, 255)</span></div>
+<div style="position:absolute;left:56.80px;top:292.51px" class="cls_017"><span class="cls_017"># Desenha uma linha verde do pixel</span></div>
+<div style="position:absolute;left:56.80px;top:307.21px" class="cls_017"><span class="cls_017">(0,0) até o pixel (300,300):</span></div>
+<div style="position:absolute;left:56.80px;top:322.01px" class="cls_016"><span class="cls_016">cv2.line(canvas, (0, 0), (300,</span></div>
+<div style="position:absolute;left:56.80px;top:336.71px" class="cls_016"><span class="cls_016">300), green)</span></div>
+<div style="position:absolute;left:56.80px;top:366.21px" class="cls_017"><span class="cls_017"># Desenha um retângulo verde. O último argumento é a</span></div>
+<div style="position:absolute;left:56.80px;top:381.01px" class="cls_017"><span class="cls_017">espessura da linha, em pixels:</span></div>
+<div style="position:absolute;left:56.80px;top:395.71px" class="cls_016"><span class="cls_016">cv2.rectangle(canvas, (10, 10), (60, 60), red, 5)</span></div>
+<div style="position:absolute;left:56.80px;top:425.21px" class="cls_017"><span class="cls_017"># Ao colocar o argumento de espessura com valor negativo, o</span></div>
+<div style="position:absolute;left:56.80px;top:440.01px" class="cls_017"><span class="cls_017">retângulo aparece totalmente preenchido:</span></div>
+<div style="position:absolute;left:56.80px;top:454.71px" class="cls_016"><span class="cls_016">cv2.rectangle(canvas, (200, 50), (225, 125), blue, -1)</span></div>
+<div style="position:absolute;left:56.80px;top:483.61px" class="cls_017"><span class="cls_017"># Reinicializa o canvas:</span></div>
+<div style="position:absolute;left:56.80px;top:498.41px" class="cls_016"><span class="cls_016">canvas = np.zeros((300, 300, 3),</span></div>
+<div style="position:absolute;left:56.80px;top:513.11px" class="cls_016"><span class="cls_016">dtype = </span><span class="cls_018">"uint8"</span><span class="cls_016">)</span></div>
+<div style="position:absolute;left:56.80px;top:542.61px" class="cls_017"><span class="cls_017"># coloca o centro dos círculos no</span></div>
+<div style="position:absolute;left:56.80px;top:557.41px" class="cls_017"><span class="cls_017">centro do Canvas:</span></div>
+<div style="position:absolute;left:56.80px;top:572.11px" class="cls_016"><span class="cls_016">(centerX, centerY) =</span></div>
+<div style="position:absolute;left:56.80px;top:586.91px" class="cls_016"><span class="cls_016">(canvas.shape[1] // 2,</span></div>
+<div style="position:absolute;left:56.80px;top:601.61px" class="cls_016"><span class="cls_016">canvas.shape[0] // 2)</span></div>
+<div style="position:absolute;left:56.80px;top:631.11px" class="cls_017"><span class="cls_017"># Define a cor:</span></div>
+<div style="position:absolute;left:56.80px;top:645.91px" class="cls_016"><span class="cls_016">white = (255, 255, 255)</span></div>
+<div style="position:absolute;left:56.80px;top:675.41px" class="cls_017"><span class="cls_017"># Desenha círculos:</span></div>
+<div style="position:absolute;left:56.80px;top:690.11px" class="cls_015"><span class="cls_015">for</span><span class="cls_016"> r </span><span class="cls_015">in</span><span class="cls_016"> range(0, 175, 25):</span></div>
+<div style="position:absolute;left:88.00px;top:704.91px" class="cls_016"><span class="cls_016">cv2.circle(canvas, (centerX, centerY), r, white)</span></div>
+<div style="position:absolute;left:56.80px;top:735.11px" class="cls_012"><span class="cls_012">O tipo de dado é uint8 porque o range é [0,255]. É possível inicializar um inteiro aleatório</span></div>
+<div style="position:absolute;left:56.80px;top:752.11px" class="cls_012"><span class="cls_012">com np.random.randint().</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:2553px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background04.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.71px" class="cls_003"><span class="cls_003">Processamento de Imagens</span></div>
+<div style="position:absolute;left:56.80px;top:114.71px" class="cls_019"><span class="cls_019">Transformações de Imagem</span></div>
+<div style="position:absolute;left:56.80px;top:146.31px" class="cls_020"><span class="cls_020">Translação</span></div>
+<div style="position:absolute;left:56.80px;top:191.41px" class="cls_012"><span class="cls_012">A translação é dada por uma matriz de translação Numpy da seguinte forma:</span></div>
+<div style="position:absolute;left:56.80px;top:213.11px" class="cls_012"><span class="cls_012">M = [[1, 0, shiftX], [0, 1, shiftY]]</span></div>
+<div style="position:absolute;left:56.80px;top:236.91px" class="cls_012"><span class="cls_012">Essa matriz tem que ser definida como uma matriz de ponto flutuante.</span></div>
+<div style="position:absolute;left:56.80px;top:273.41px" class="cls_017"><span class="cls_017"># 25 pixels para a direita e 50 pixels para baixo:</span></div>
+<div style="position:absolute;left:56.80px;top:288.11px" class="cls_016"><span class="cls_016">M = np.float32([[1, 0, 25], [0, 1, 50]])</span></div>
+<div style="position:absolute;left:56.80px;top:302.91px" class="cls_016"><span class="cls_016">shifted = cv2.warpAffine(image, M, (image.shape[1],</span></div>
+<div style="position:absolute;left:56.80px;top:317.61px" class="cls_016"><span class="cls_016">image.shape[0]))</span></div>
+<div style="position:absolute;left:56.80px;top:347.11px" class="cls_017"><span class="cls_017"># Agora, usando imutils:</span></div>
+<div style="position:absolute;left:56.80px;top:361.91px" class="cls_017"><span class="cls_017"># Para baixo 100 pixels:</span></div>
+<div style="position:absolute;left:56.80px;top:376.61px" class="cls_015"><span class="cls_015">import</span><span class="cls_016"> imutils</span></div>
+<div style="position:absolute;left:56.80px;top:391.41px" class="cls_016"><span class="cls_016">shifted = imutils.translate(image, 0, 100)</span></div>
+<div style="position:absolute;left:56.80px;top:583.51px" class="cls_020"><span class="cls_020">Rotação</span></div>
+<div style="position:absolute;left:56.80px;top:628.61px" class="cls_012"><span class="cls_012">A matriz de rotação é definida por:</span></div>
+<div style="position:absolute;left:56.80px;top:650.31px" class="cls_012"><span class="cls_012">M = cv2.getRotationMatrix2D(centro, grau , escala)</span></div>
+<div style="position:absolute;left:56.80px;top:674.11px" class="cls_012"><span class="cls_012">O primeiro argumento é o centro da rotação, o segundo é quantos graus queremos rotacionar e o</span></div>
+<div style="position:absolute;left:56.80px;top:689.91px" class="cls_012"><span class="cls_012">terceiro é a escala de ampliação da imagem.</span></div>
+<div style="position:absolute;left:56.80px;top:711.41px" class="cls_017"><span class="cls_017"># Calcula o centro da imagem:</span></div>
+<div style="position:absolute;left:56.80px;top:726.21px" class="cls_016"><span class="cls_016">(h, w) = image.shape[:2]</span></div>
+<div style="position:absolute;left:56.80px;top:740.91px" class="cls_016"><span class="cls_016">center = (w // 2, h // 2)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:3404px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background05.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:53.71px" class="cls_017"><span class="cls_017"># Rotaciona 45°</span></div>
+<div style="position:absolute;left:56.80px;top:68.41px" class="cls_016"><span class="cls_016">M = cv2.getRotationMatrix2D(center, 45, 1.0)</span></div>
+<div style="position:absolute;left:56.80px;top:83.21px" class="cls_016"><span class="cls_016">rotated = cv2.warpAffine(image, M, (w, h))</span></div>
+<div style="position:absolute;left:56.80px;top:97.91px" class="cls_016"><span class="cls_016">cv2.imshow(</span><span class="cls_018">"Rotated by 45 Degrees"</span><span class="cls_016">, rotated)</span></div>
+<div style="position:absolute;left:56.80px;top:127.41px" class="cls_017"><span class="cls_017"># Rotaciona 180° usando imutils.</span></div>
+<div style="position:absolute;left:56.80px;top:142.21px" class="cls_016"><span class="cls_016">rotated = imutils.rotate(image, 180)</span></div>
+<div style="position:absolute;left:56.80px;top:172.41px" class="cls_012"><span class="cls_012">O método imutils.rotate() sempre determina o centro da imagem, caso o centro de rotação</span></div>
+<div style="position:absolute;left:56.80px;top:189.31px" class="cls_012"><span class="cls_012">não seja especificado.</span></div>
+<div style="position:absolute;left:56.80px;top:378.91px" class="cls_020"><span class="cls_020">Redimensionamento</span></div>
+<div style="position:absolute;left:56.80px;top:424.11px" class="cls_012"><span class="cls_012">Definimos a largura da nova imagem (150 pixels, por exemplo), calculamos a proporção e após</span></div>
+<div style="position:absolute;left:56.80px;top:439.91px" class="cls_012"><span class="cls_012">isso, a altura:</span></div>
+<div style="position:absolute;left:56.80px;top:461.41px" class="cls_016"><span class="cls_016">r = 150.0 / image.shape[1]</span></div>
+<div style="position:absolute;left:56.80px;top:476.21px" class="cls_016"><span class="cls_016">dim = (150, int(image.shape[0] * r))</span></div>
+<div style="position:absolute;left:56.80px;top:506.41px" class="cls_012"><span class="cls_012">O código para redimensionamento é:</span></div>
+<div style="position:absolute;left:56.80px;top:527.91px" class="cls_016"><span class="cls_016">resized = cv2.resize(image, dim, interpolation =</span></div>
+<div style="position:absolute;left:56.80px;top:542.71px" class="cls_016"><span class="cls_016">cv2.INTER_AREA)</span></div>
+<div style="position:absolute;left:56.80px;top:572.91px" class="cls_021"><span class="cls_021">Outros métodos para interpolação são:</span></div>
+<div style="position:absolute;left:74.80px;top:594.41px" class="cls_022"><span class="cls_022">•</span><span class="cls_016">  cv2.INTER_LINEAR</span></div>
+<div style="position:absolute;left:74.80px;top:618.41px" class="cls_022"><span class="cls_022">•</span><span class="cls_016">  cv2.INTER_CUBIC</span></div>
+<div style="position:absolute;left:74.80px;top:642.31px" class="cls_022"><span class="cls_022">•</span><span class="cls_016">  cv2.INTER_NEAREST</span></div>
+<div style="position:absolute;left:56.80px;top:713.31px" class="cls_021"><span class="cls_021">E finalmente, usando imutils temos:</span></div>
+<div style="position:absolute;left:56.80px;top:734.81px" class="cls_016"><span class="cls_016">resized = imutils.resize(image, width = 100)</span></div>
+<div style="position:absolute;left:56.80px;top:749.61px" class="cls_016"><span class="cls_016">resized = imutils.resize(image, height = 50)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:4255px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background06.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.91px" class="cls_020"><span class="cls_020">Inversão</span></div>
+<div style="position:absolute;left:56.80px;top:98.71px" class="cls_016"><span class="cls_016">flipped = cv2.flip(image, 1)</span></div>
+<div style="position:absolute;left:56.80px;top:113.51px" class="cls_016"><span class="cls_016">flipped = cv2.flip(image, 0)</span></div>
+<div style="position:absolute;left:56.80px;top:128.21px" class="cls_016"><span class="cls_016">flipped = cv2.flip(image, -1)</span></div>
+<div style="position:absolute;left:56.80px;top:336.41px" class="cls_020"><span class="cls_020">Recortar</span></div>
+<div style="position:absolute;left:56.80px;top:381.51px" class="cls_012"><span class="cls_012">Basta fazer o fatiamento com Numpy:</span></div>
+<div style="position:absolute;left:56.80px;top:403.01px" class="cls_016"><span class="cls_016">cropped = image[30:120 , 240:335]</span></div>
+<div style="position:absolute;left:56.80px;top:625.91px" class="cls_019"><span class="cls_019">Aritmética com Imagens</span></div>
+<div style="position:absolute;left:56.80px;top:649.61px" class="cls_012"><span class="cls_012">As imagens RGB são armazenadas como inteiro de 8 bits, no range de </span><span class="cls_016">[0,255]</span><span class="cls_021">.</span></div>
+<div style="position:absolute;left:56.80px;top:675.01px" class="cls_021"><span class="cls_021">As operações de soma no Numpy e OpenCV são diferentes.</span></div>
+<div style="position:absolute;left:74.80px;top:697.81px" class="cls_023"><span class="cls_023">•</span><span class="cls_021">  No OpenCV, os valores saturam no máximo e mínimo:</span></div>
+<div style="position:absolute;left:92.80px;top:719.31px" class="cls_016"><span class="cls_016">cv2.add(np.uint8([200]), np.uint8([100])</span></div>
+<div style="position:absolute;left:92.30px;top:744.61px" class="cls_024"><span class="cls_024">200 + 100 = 255</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5106px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background07.jpg" width=595 height=841></div>
+<div style="position:absolute;left:92.80px;top:53.71px" class="cls_016"><span class="cls_016">cv2.subtract(np.uint8([50]), np.uint8([100])</span></div>
+<div style="position:absolute;left:92.30px;top:79.01px" class="cls_024"><span class="cls_024">50 - 100 = 0</span></div>
+<div style="position:absolute;left:74.80px;top:103.21px" class="cls_023"><span class="cls_023">•</span><span class="cls_021">  No Numpy, os valores “passam direto”:</span></div>
+<div style="position:absolute;left:92.80px;top:124.71px" class="cls_016"><span class="cls_016">np.uint8([200]) + np.uint8([100])</span></div>
+<div style="position:absolute;left:92.30px;top:150.01px" class="cls_024"><span class="cls_024">200 + 100 = 44</span></div>
+<div style="position:absolute;left:92.80px;top:172.91px" class="cls_016"><span class="cls_016">np.uint8([50]) - np.uint8([100])</span></div>
+<div style="position:absolute;left:92.30px;top:198.21px" class="cls_024"><span class="cls_024">50 - 100 = 206</span></div>
+<div style="position:absolute;left:56.80px;top:245.31px" class="cls_021"><span class="cls_021">Fazendo as operações com OpenCV:</span></div>
+<div style="position:absolute;left:56.80px;top:280.61px" class="cls_024"><span class="cls_024">M = np.ones(image.shape, dtype = </span><span class="cls_025">"uint8"</span><span class="cls_024">) * </span><span class="cls_026">100</span></div>
+<div style="position:absolute;left:56.80px;top:295.41px" class="cls_024"><span class="cls_024">added = cv2.add(image, M)</span></div>
+<div style="position:absolute;left:56.80px;top:310.11px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Added"</span><span class="cls_024">, added)</span></div>
+<div style="position:absolute;left:56.80px;top:324.91px" class="cls_024"><span class="cls_024">M = np.ones(image.shape, dtype = </span><span class="cls_025">"uint8"</span><span class="cls_024">) * </span><span class="cls_026">50</span></div>
+<div style="position:absolute;left:56.80px;top:339.61px" class="cls_024"><span class="cls_024">subtracted = cv2.subtract(image, M)</span></div>
+<div style="position:absolute;left:56.80px;top:354.41px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Subtracted"</span><span class="cls_024">, subtracted)</span></div>
+<div style="position:absolute;left:56.80px;top:544.21px" class="cls_019"><span class="cls_019">Operações bit a bit:</span></div>
+<div style="position:absolute;left:56.80px;top:590.41px" class="cls_024"><span class="cls_024">rectangle = np.zeros((</span><span class="cls_026">300</span><span class="cls_024">, </span><span class="cls_026">300</span><span class="cls_024">), dtype = </span><span class="cls_025">"uint8"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:605.11px" class="cls_024"><span class="cls_024">cv2.rectangle(rectangle, (</span><span class="cls_026">25</span><span class="cls_024">, </span><span class="cls_026">25</span><span class="cls_024">), (</span><span class="cls_026">275</span><span class="cls_024">, </span><span class="cls_026">275</span><span class="cls_024">), </span><span class="cls_026">255</span><span class="cls_024">, </span><span class="cls_026">-1</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:634.61px" class="cls_024"><span class="cls_024">circle = np.zeros((</span><span class="cls_026">300</span><span class="cls_024">, </span><span class="cls_026">300</span><span class="cls_024">), dtype = </span><span class="cls_025">"uint8"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:649.41px" class="cls_024"><span class="cls_024">cv2.circle(circle, (</span><span class="cls_026">150</span><span class="cls_024">, </span><span class="cls_026">150</span><span class="cls_024">), </span><span class="cls_026">150</span><span class="cls_024">, </span><span class="cls_026">255</span><span class="cls_024">, </span><span class="cls_026">-1</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:678.91px" class="cls_024"><span class="cls_024">bitwiseAnd = cv2.bitwise_and(rectangle, circle)</span></div>
+<div style="position:absolute;left:56.80px;top:693.61px" class="cls_024"><span class="cls_024">bitwiseOr = cv2.bitwise_or(rectangle, circle)</span></div>
+<div style="position:absolute;left:56.80px;top:708.41px" class="cls_024"><span class="cls_024">bitwiseXor = cv2.bitwise_xor(rectangle, circle)</span></div>
+<div style="position:absolute;left:56.80px;top:723.11px" class="cls_024"><span class="cls_024">bitwiseNot = cv2.bitwise_not(circle)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:5957px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background08.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:439.01px" class="cls_019"><span class="cls_019">Mascarando a imagem:</span></div>
+<div style="position:absolute;left:56.80px;top:485.21px" class="cls_027"><span class="cls_027"># Definindo a máscara:</span></div>
+<div style="position:absolute;left:56.80px;top:499.91px" class="cls_024"><span class="cls_024">mask = np.zeros(image.shape[:</span><span class="cls_026">2</span><span class="cls_024">], dtype = </span><span class="cls_025">"uint8"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:514.71px" class="cls_024"><span class="cls_024">(cX, cY) = (image.shape[</span><span class="cls_026">1</span><span class="cls_024">] // </span><span class="cls_026">2</span><span class="cls_024">, image.shape[</span><span class="cls_026">0</span><span class="cls_024">] // </span><span class="cls_026">2</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:529.41px" class="cls_024"><span class="cls_024">cv2.rectangle(mask, (cX - </span><span class="cls_026">75</span><span class="cls_024">, cY - </span><span class="cls_026">75</span><span class="cls_024">), (cX + </span><span class="cls_026">75</span><span class="cls_024"> , cY + </span><span class="cls_026">75</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:476.40px;top:544.21px" class="cls_026"><span class="cls_026">255</span><span class="cls_024">, </span><span class="cls_026">-1</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:573.71px" class="cls_027"><span class="cls_027"># Aplicando a Máscara:</span></div>
+<div style="position:absolute;left:56.80px;top:588.41px" class="cls_027"><span class="cls_027"># region of the pill is shown</span></div>
+<div style="position:absolute;left:56.80px;top:603.21px" class="cls_024"><span class="cls_024">masked = cv2.bitwise_and(image, image, mask = mask)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:6808px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background09.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.91px" class="cls_019"><span class="cls_019">Dividindo e mesclando canais</span></div>
+<div style="position:absolute;left:56.80px;top:101.11px" class="cls_024"><span class="cls_024">(B, G, R) = cv2.split(image)</span></div>
+<div style="position:absolute;left:56.80px;top:130.61px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Red"</span><span class="cls_024">, R)</span></div>
+<div style="position:absolute;left:56.80px;top:145.31px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Green"</span><span class="cls_024">, G)</span></div>
+<div style="position:absolute;left:56.80px;top:160.11px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Blue"</span><span class="cls_024">, B)</span></div>
+<div style="position:absolute;left:56.80px;top:189.61px" class="cls_024"><span class="cls_024">merged = cv2.merge([B, G, R])</span></div>
+<div style="position:absolute;left:56.80px;top:204.31px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Merged"</span><span class="cls_024">, merged)</span></div>
+<div style="position:absolute;left:56.80px;top:233.81px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Red"</span><span class="cls_024">, cv2.merge([zeros, zeros, R]))</span></div>
+<div style="position:absolute;left:56.80px;top:248.61px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Green"</span><span class="cls_024">, cv2.merge([zeros, G, zeros]))</span></div>
+<div style="position:absolute;left:56.80px;top:263.31px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Blue"</span><span class="cls_024">, cv2.merge([B, zeros, zeros]))</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:7659px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background10.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.91px" class="cls_019"><span class="cls_019">Espaços de Cor</span></div>
+<div style="position:absolute;left:56.80px;top:101.11px" class="cls_024"><span class="cls_024">image = cv2.imread(args[</span><span class="cls_025">"image"</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:115.81px" class="cls_024"><span class="cls_024">gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span></div>
+<div style="position:absolute;left:56.80px;top:130.61px" class="cls_024"><span class="cls_024">hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)</span></div>
+<div style="position:absolute;left:56.80px;top:145.31px" class="cls_024"><span class="cls_024">lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:8510px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background11.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Histogramas</span></div>
+<div style="position:absolute;left:56.80px;top:116.81px" class="cls_012"><span class="cls_012">Um histograma representa a distribuição de intensidades de pixel em uma imagem. Pode ser</span></div>
+<div style="position:absolute;left:56.80px;top:132.71px" class="cls_012"><span class="cls_012">visualizado como um gráfico que dá uma intuição de alto nível da  distribuição de intensidade dos</span></div>
+<div style="position:absolute;left:56.80px;top:148.51px" class="cls_012"><span class="cls_012">pixels. Vamos assumir um espaço de cores RGB, então esses valores de pixel estarão na faixa de 0 a</span></div>
+<div style="position:absolute;left:56.80px;top:164.41px" class="cls_012"><span class="cls_012">255.</span></div>
+<div style="position:absolute;left:56.80px;top:185.91px" class="cls_028"><span class="cls_028">from</span><span class="cls_024"> matplotlib </span><span class="cls_028">import</span><span class="cls_024"> pyplot </span><span class="cls_028">as</span><span class="cls_024"> plt</span></div>
+<div style="position:absolute;left:56.80px;top:200.61px" class="cls_024"><span class="cls_024">hist = cv2.calcHist(images,channels,mask,histSize,ranges)</span></div>
+<div style="position:absolute;left:56.80px;top:215.41px" class="cls_024"><span class="cls_024">plt.plot(hist)</span></div>
+<div style="position:absolute;left:74.80px;top:245.61px" class="cls_029"><span class="cls_029">•</span><span class="cls_030">  images: </span><span class="cls_012">pode usar a lista</span><span class="cls_030"> [myimage]</span></div>
+<div style="position:absolute;left:74.80px;top:269.91px" class="cls_029"><span class="cls_029">•</span><span class="cls_030">  channels: [0] </span><span class="cls_012">para escala de cinza e</span><span class="cls_030"> [0, 1, 2] </span><span class="cls_012">para os três canais</span></div>
+<div style="position:absolute;left:74.80px;top:294.21px" class="cls_029"><span class="cls_029">•</span><span class="cls_030">  mask: Se não houver máscara, pode colocar None</span></div>
+<div style="position:absolute;left:74.80px;top:318.51px" class="cls_029"><span class="cls_029">•</span><span class="cls_030">  histSize: </span><span class="cls_012">Número de intervalos</span></div>
+<div style="position:absolute;left:74.80px;top:342.81px" class="cls_029"><span class="cls_029">•</span><span class="cls_030">  ranges: </span><span class="cls_012">para RGB,</span><span class="cls_030"> [0, 256].</span></div>
+<div style="position:absolute;left:56.80px;top:401.21px" class="cls_019"><span class="cls_019">Histograma em escala de cinza</span></div>
+<div style="position:absolute;left:56.80px;top:673.71px" class="cls_027"><span class="cls_027"># Inicialize a tupla de cores e a figura matplotlib:</span></div>
+<div style="position:absolute;left:56.80px;top:688.41px" class="cls_024"><span class="cls_024">chans = cv2.split(image)</span></div>
+<div style="position:absolute;left:56.80px;top:703.21px" class="cls_024"><span class="cls_024">colors = (</span><span class="cls_025">"b"</span><span class="cls_024">, </span><span class="cls_025">"g"</span><span class="cls_024">, </span><span class="cls_025">"r"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:717.91px" class="cls_024"><span class="cls_024">plt.figure()</span></div>
+<div style="position:absolute;left:56.80px;top:762.21px" class="cls_027"><span class="cls_027"># Loop over the image channels</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:9361px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background12.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:53.71px" class="cls_028"><span class="cls_028">for</span><span class="cls_024"> (chan, color) </span><span class="cls_028">in</span><span class="cls_024"> zip(chans, colors):</span></div>
+<div style="position:absolute;left:119.20px;top:68.41px" class="cls_027"><span class="cls_027"># Create a histogram for the current channel and plot</span></div>
+<div style="position:absolute;left:56.80px;top:83.21px" class="cls_027"><span class="cls_027">it</span></div>
+<div style="position:absolute;left:119.20px;top:97.91px" class="cls_024"><span class="cls_024">hist = cv2.calcHist([chan], [</span><span class="cls_026">0</span><span class="cls_024">], </span><span class="cls_028">None</span><span class="cls_024">, [</span><span class="cls_026">256</span><span class="cls_024">], [</span><span class="cls_026">0</span><span class="cls_024">,</span></div>
+<div style="position:absolute;left:56.80px;top:112.71px" class="cls_026"><span class="cls_026">256</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:119.20px;top:127.41px" class="cls_024"><span class="cls_024">plt.plot(hist, color = color)</span></div>
+<div style="position:absolute;left:119.20px;top:142.21px" class="cls_024"><span class="cls_024">plt.xlim([</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:213.31px" class="cls_019"><span class="cls_019">Histograma em cores</span></div>
+<div style="position:absolute;left:56.80px;top:496.01px" class="cls_027"><span class="cls_027"># Histogramas em 2D reduzimos para 32 bins para visualizar</span></div>
+<div style="position:absolute;left:56.80px;top:510.71px" class="cls_027"><span class="cls_027">melhor:</span></div>
+<div style="position:absolute;left:56.80px;top:525.51px" class="cls_024"><span class="cls_024">fig = plt.figure()</span></div>
+<div style="position:absolute;left:56.80px;top:555.01px" class="cls_027"><span class="cls_027"># Plot a 2D color histogram for green and blue</span></div>
+<div style="position:absolute;left:56.80px;top:569.71px" class="cls_024"><span class="cls_024">ax = fig.add_subplot(</span><span class="cls_026">131</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:584.51px" class="cls_024"><span class="cls_024">hist = cv2.calcHist([chans[</span><span class="cls_026">1</span><span class="cls_024">], chans[</span><span class="cls_026">0</span><span class="cls_024">]], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">1</span><span class="cls_024">], </span><span class="cls_028">None</span><span class="cls_024">, [</span><span class="cls_026">32</span><span class="cls_024">,</span></div>
+<div style="position:absolute;left:56.80px;top:599.21px" class="cls_026"><span class="cls_026">32</span><span class="cls_024">], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">, </span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:614.01px" class="cls_024"><span class="cls_024">p = ax.imshow(hist, interpolation = </span><span class="cls_025">"nearest"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:628.71px" class="cls_024"><span class="cls_024">ax.set_title(</span><span class="cls_025">"2D Color Histogram for G and B"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:643.51px" class="cls_024"><span class="cls_024">plt.colorbar(p)</span></div>
+<div style="position:absolute;left:56.80px;top:673.01px" class="cls_027"><span class="cls_027"># Plot a 2D color histogram for green and red</span></div>
+<div style="position:absolute;left:56.80px;top:687.71px" class="cls_024"><span class="cls_024">ax = fig.add_subplot(</span><span class="cls_026">132</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:702.51px" class="cls_024"><span class="cls_024">hist = cv2.calcHist([chans[</span><span class="cls_026">1</span><span class="cls_024">], chans[</span><span class="cls_026">2</span><span class="cls_024">]], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">1</span><span class="cls_024">], </span><span class="cls_028">None</span><span class="cls_024">, [</span><span class="cls_026">32</span><span class="cls_024">,</span></div>
+<div style="position:absolute;left:56.80px;top:717.21px" class="cls_026"><span class="cls_026">32</span><span class="cls_024">], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">, </span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:732.01px" class="cls_024"><span class="cls_024">p = ax.imshow(hist, interpolation = </span><span class="cls_025">"nearest"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:746.71px" class="cls_024"><span class="cls_024">ax.set_title(</span><span class="cls_025">"2D Color Histogram for G and R"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:761.51px" class="cls_024"><span class="cls_024">plt.colorbar(p)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:10212px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background13.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:68.41px" class="cls_027"><span class="cls_027"># Plot a 2D color histogram for blue and red</span></div>
+<div style="position:absolute;left:56.80px;top:83.21px" class="cls_024"><span class="cls_024">ax = fig.add_subplot(</span><span class="cls_026">133</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:97.91px" class="cls_024"><span class="cls_024">hist = cv2.calcHist([chans[</span><span class="cls_026">0</span><span class="cls_024">], chans[</span><span class="cls_026">2</span><span class="cls_024">]], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">1</span><span class="cls_024">], </span><span class="cls_028">None</span><span class="cls_024">, [</span><span class="cls_026">32</span><span class="cls_024">,</span></div>
+<div style="position:absolute;left:56.80px;top:112.71px" class="cls_026"><span class="cls_026">32</span><span class="cls_024">], [</span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">, </span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">256</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:127.41px" class="cls_024"><span class="cls_024">p = ax.imshow(hist, interpolation = </span><span class="cls_025">"nearest"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:142.21px" class="cls_024"><span class="cls_024">ax.set_title(</span><span class="cls_025">"2D Color Histogram for B and R"</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:156.91px" class="cls_024"><span class="cls_024">plt.colorbar(p)</span></div>
+<div style="position:absolute;left:56.80px;top:392.81px" class="cls_019"><span class="cls_019">Equalização</span></div>
+<div style="position:absolute;left:56.80px;top:417.51px" class="cls_012"><span class="cls_012">A equalização melhora o contraste da imagem “esticando” a distribuição de pixels. É aplicado à</span></div>
+<div style="position:absolute;left:56.80px;top:433.31px" class="cls_012"><span class="cls_012">imagens em escala de cinza. É utilizado para melhorar o contraste de imagens de raiox X ou de</span></div>
+<div style="position:absolute;left:56.80px;top:449.21px" class="cls_012"><span class="cls_012">satélite.</span></div>
+<div style="position:absolute;left:56.80px;top:472.01px" class="cls_030"><span class="cls_030">eq = cv2.equalizeHist(image)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11063px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background14.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Suavizando e Borrando</span></div>
+<div style="position:absolute;left:56.80px;top:116.81px" class="cls_012"><span class="cls_012">Muitas funções de processamento de imagem e visão computacional, como e detecção de limiar  e</span></div>
+<div style="position:absolute;left:56.80px;top:130.61px" class="cls_012"><span class="cls_012">borda, desempenham melhor se a imagem primeiro for suavizada ou desfocada.</span></div>
+<div style="position:absolute;left:56.80px;top:168.11px" class="cls_019"><span class="cls_019">Média</span></div>
+<div style="position:absolute;left:56.80px;top:192.81px" class="cls_012"><span class="cls_012">Imagine uma janela (</span><span class="cls_032">convolution kernel</span><span class="cls_012">) </span><span class="cls_032">k </span><span class="cls_012">x </span><span class="cls_032">k </span><span class="cls_012">se deslocando na imagem sobre cada pixel. A média</span></div>
+<div style="position:absolute;left:56.80px;top:208.61px" class="cls_012"><span class="cls_012">dos pixels do </span><span class="cls_032">kernel</span><span class="cls_012"> é aplicada ao pixel central:</span></div>
+<div style="position:absolute;left:56.80px;top:230.11px" class="cls_024"><span class="cls_024">blurred = np.hstack([</span></div>
+<div style="position:absolute;left:88.00px;top:244.91px" class="cls_024"><span class="cls_024">cv2.blur(image, (</span><span class="cls_026">3</span><span class="cls_024">, </span><span class="cls_026">3</span><span class="cls_024">)),</span></div>
+<div style="position:absolute;left:88.00px;top:259.61px" class="cls_024"><span class="cls_024">cv2.blur(image, (</span><span class="cls_026">5</span><span class="cls_024">, </span><span class="cls_026">5</span><span class="cls_024">)),</span></div>
+<div style="position:absolute;left:88.00px;top:274.41px" class="cls_024"><span class="cls_024">cv2.blur(image, (</span><span class="cls_026">7</span><span class="cls_024">, </span><span class="cls_026">7</span><span class="cls_024">))])</span></div>
+<div style="position:absolute;left:56.80px;top:480.21px" class="cls_019"><span class="cls_019">Desfocagem Gaussiana</span></div>
+<div style="position:absolute;left:56.80px;top:504.91px" class="cls_012"><span class="cls_012">Os pixels mais próximos do centro do kernel tem peso maior no cálculo da média:</span></div>
+<div style="position:absolute;left:56.80px;top:537.71px" class="cls_024"><span class="cls_024">blurred = np.hstack([</span></div>
+<div style="position:absolute;left:88.00px;top:552.51px" class="cls_024"><span class="cls_024">cv2.GaussianBlur(image, (</span><span class="cls_026">3</span><span class="cls_024">, </span><span class="cls_026">3</span><span class="cls_024">), </span><span class="cls_026">0</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:88.00px;top:567.21px" class="cls_024"><span class="cls_024">cv2.GaussianBlur(image, (</span><span class="cls_026">5</span><span class="cls_024">, </span><span class="cls_026">5</span><span class="cls_024">), </span><span class="cls_026">0</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:88.00px;top:582.01px" class="cls_024"><span class="cls_024">cv2.GaussianBlur(image, (</span><span class="cls_026">7</span><span class="cls_024">, </span><span class="cls_026">7</span><span class="cls_024">), </span><span class="cls_026">0</span><span class="cls_024">)])</span></div>
+<div style="position:absolute;left:56.80px;top:612.21px" class="cls_012"><span class="cls_012">O último parâmetro é </span><span class="cls_032">σ</span><span class="cls_012">, o desvio padrão na direção </span><span class="cls_032">x</span><span class="cls_012">. Ao definir como </span><span class="cls_032">0</span><span class="cls_012">, estamos determinando em</span></div>
+<div style="position:absolute;left:56.80px;top:626.01px" class="cls_012"><span class="cls_012">função do tamanho do kernel.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:11914px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background15.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.91px" class="cls_019"><span class="cls_019">Mediana</span></div>
+<div style="position:absolute;left:56.80px;top:79.61px" class="cls_012"><span class="cls_012">Ótimo para remoção de ruído “sal-e-pimenta”:</span></div>
+<div style="position:absolute;left:56.80px;top:101.11px" class="cls_024"><span class="cls_024">blurred = np.hstack([</span></div>
+<div style="position:absolute;left:119.20px;top:115.81px" class="cls_024"><span class="cls_024">cv2.medianBlur(image, </span><span class="cls_026">3</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:119.20px;top:130.61px" class="cls_024"><span class="cls_024">cv2.medianBlur(image, </span><span class="cls_026">5</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:119.20px;top:145.31px" class="cls_024"><span class="cls_024">cv2.medianBlur(image, </span><span class="cls_026">7</span><span class="cls_024">)])</span></div>
+<div style="position:absolute;left:56.80px;top:333.81px" class="cls_019"><span class="cls_019">Bilateral</span></div>
+<div style="position:absolute;left:56.80px;top:358.51px" class="cls_012"><span class="cls_012">Tentar preservar contornos durante a desfocagem. A primeira função gaussiana considera apenas os</span></div>
+<div style="position:absolute;left:56.80px;top:374.41px" class="cls_012"><span class="cls_012">pixels da vizinhança. O segunda gaussiana então modela a intensidade de pixel da vizinhança,</span></div>
+<div style="position:absolute;left:56.80px;top:390.21px" class="cls_012"><span class="cls_012">garantindo que apenas pixels com intensidade semelhante são incluídos no cálculo do desfoque.</span></div>
+<div style="position:absolute;left:56.80px;top:423.11px" class="cls_024"><span class="cls_024">blurred = np.hstack([</span></div>
+<div style="position:absolute;left:119.20px;top:437.81px" class="cls_024"><span class="cls_024">cv2.bilateralFilter(image, </span><span class="cls_026">5</span><span class="cls_024">, </span><span class="cls_026">21</span><span class="cls_024">, </span><span class="cls_026">21</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:119.20px;top:452.61px" class="cls_024"><span class="cls_024">cv2.bilateralFilter(image, </span><span class="cls_026">7</span><span class="cls_024">, </span><span class="cls_026">31</span><span class="cls_024">, </span><span class="cls_026">31</span><span class="cls_024">),</span></div>
+<div style="position:absolute;left:119.20px;top:467.31px" class="cls_024"><span class="cls_024">cv2.bilateralFilter(image, </span><span class="cls_026">9</span><span class="cls_024">, </span><span class="cls_026">41</span><span class="cls_024">, </span><span class="cls_026">41</span><span class="cls_024">)])</span></div>
+<div style="position:absolute;left:56.80px;top:497.61px" class="cls_012"><span class="cls_012">Os argumentos são vizinhança, desvio padrão de cor e desvio padrão de espaço.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:12765px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background16.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Theresholding</span></div>
+<div style="position:absolute;left:56.80px;top:103.81px" class="cls_019"><span class="cls_019">Simples</span></div>
+<div style="position:absolute;left:56.80px;top:128.51px" class="cls_012"><span class="cls_012">Aplicar um limiar </span><span class="cls_032">p</span><span class="cls_012"> que majora (255) os pixels acima desse valor e minimiza (0) os pixels abaixo.</span></div>
+<div style="position:absolute;left:56.80px;top:151.41px" class="cls_012"><span class="cls_012">Aplicar uma desfocagem gaussiana antes do limiar ajuda a remover algum ruído de alta frequência</span></div>
+<div style="position:absolute;left:56.80px;top:167.21px" class="cls_012"><span class="cls_012">que possa atrapalhar o processo:</span></div>
+<div style="position:absolute;left:56.80px;top:200.41px" class="cls_034"><span class="cls_034">image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span></div>
+<div style="position:absolute;left:56.80px;top:212.81px" class="cls_034"><span class="cls_034">blurred = cv2.GaussianBlur(image, (</span><span class="cls_035">5</span><span class="cls_034">, </span><span class="cls_035">5</span><span class="cls_034">), </span><span class="cls_035">0</span><span class="cls_034">)</span></div>
+<div style="position:absolute;left:56.80px;top:225.31px" class="cls_034"><span class="cls_034">(T, threshInv) = cv2.threshold(blurred, </span><span class="cls_035">155</span><span class="cls_034">, </span><span class="cls_035">255</span><span class="cls_034">, cv2.THRESH_BINARY_INV)</span></div>
+<div style="position:absolute;left:56.80px;top:237.71px" class="cls_034"><span class="cls_034">(T, thresh) = cv2.threshold(blurred, </span><span class="cls_035">155</span><span class="cls_034">, </span><span class="cls_035">255</span><span class="cls_034">, cv2.THRESH_BINARY)</span></div>
+<div style="position:absolute;left:56.80px;top:493.91px" class="cls_019"><span class="cls_019">Adaptativo</span></div>
+<div style="position:absolute;left:56.80px;top:541.41px" class="cls_012"><span class="cls_012">Considera pequenas vizinhanças de pixels e, em seguida, encontra um valor de limiar ideal T para</span></div>
+<div style="position:absolute;left:56.80px;top:557.31px" class="cls_012"><span class="cls_012">cada vizinhança.</span></div>
+<div style="position:absolute;left:56.80px;top:590.41px" class="cls_036"><span class="cls_036">thresh = cv2.adaptiveThreshold(blurred, </span><span class="cls_037">255</span><span class="cls_036">,</span></div>
+<div style="position:absolute;left:112.00px;top:603.41px" class="cls_036"><span class="cls_036">cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, </span><span class="cls_037">11</span><span class="cls_036">, </span><span class="cls_037">4</span><span class="cls_036">)</span></div>
+<div style="position:absolute;left:56.80px;top:616.51px" class="cls_036"><span class="cls_036">thresh = cv2.adaptiveThreshold(blurred, </span><span class="cls_037">255</span><span class="cls_036">,</span></div>
+<div style="position:absolute;left:112.00px;top:629.51px" class="cls_036"><span class="cls_036">cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, </span><span class="cls_037">15</span><span class="cls_036">, </span><span class="cls_037">3</span><span class="cls_036">)</span></div>
+<div style="position:absolute;left:74.80px;top:657.81px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Os argumentos 11 e 15 indica que estamos examinando regiões 11x11 e 15x15 da imagem</span></div>
+<div style="position:absolute;left:74.80px;top:680.71px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Os argumentos 4 e 3 são o </span><span class="cls_032">C</span><span class="cls_012">, que é o valor que é subtraído da média</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:13616px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background17.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:295.81px" class="cls_019"><span class="cls_019">Métodos de Otsu e Riddler-Calvard</span></div>
+<div style="position:absolute;left:56.80px;top:320.51px" class="cls_012"><span class="cls_012">O método de Otsu assume que há dois picos no histograma da escala de cinza da imagem. Em</span></div>
+<div style="position:absolute;left:56.80px;top:336.41px" class="cls_012"><span class="cls_012">seguida, ele tenta encontrar um valor ótimo para separar esses dois picos (valor  T). Embora o</span></div>
+<div style="position:absolute;left:56.80px;top:352.21px" class="cls_012"><span class="cls_012">OpenCV forneça suporte para o método de Otsu, a implementação de Luís Pedro Coelho no pacote</span></div>
+<div style="position:absolute;left:56.80px;top:368.21px" class="cls_012"><span class="cls_012">mahotas é mais “Pythônico”.</span></div>
+<div style="position:absolute;left:56.80px;top:402.21px" class="cls_024"><span class="cls_024">T = mahotas.thresholding.otsu(blurred)</span></div>
+<div style="position:absolute;left:56.80px;top:431.71px" class="cls_024"><span class="cls_024">thresh = image.copy()</span></div>
+<div style="position:absolute;left:56.80px;top:446.51px" class="cls_024"><span class="cls_024">thresh[thresh > T] = </span><span class="cls_026">255</span></div>
+<div style="position:absolute;left:56.80px;top:461.21px" class="cls_024"><span class="cls_024">thresh[thresh &lt; </span><span class="cls_026">255</span><span class="cls_024">] = </span><span class="cls_026">0</span></div>
+<div style="position:absolute;left:56.80px;top:476.01px" class="cls_024"><span class="cls_024">thresh = cv2.bitwise_not(thresh)</span></div>
+<div style="position:absolute;left:56.80px;top:490.71px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Otsu"</span><span class="cls_024">, thresh)</span></div>
+<div style="position:absolute;left:56.80px;top:520.21px" class="cls_027"><span class="cls_027"># An alternative is to use the Riddler-Calvard method</span></div>
+<div style="position:absolute;left:56.80px;top:535.01px" class="cls_024"><span class="cls_024">T = mahotas.thresholding.rc(blurred)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:14467px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background18.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.71px" class="cls_003"><span class="cls_003">Gradientes e Detecção de Borda</span></div>
+<div style="position:absolute;left:56.80px;top:114.71px" class="cls_019"><span class="cls_019">Gradientes</span></div>
+<div style="position:absolute;left:56.80px;top:160.91px" class="cls_027"><span class="cls_027"># Transforma em P&B:</span></div>
+<div style="position:absolute;left:56.80px;top:175.61px" class="cls_024"><span class="cls_024">image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span></div>
+<div style="position:absolute;left:56.80px;top:190.41px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Original"</span><span class="cls_024">, image)</span></div>
+<div style="position:absolute;left:56.80px;top:219.91px" class="cls_027"><span class="cls_027"># Laplaciano</span></div>
+<div style="position:absolute;left:56.80px;top:234.61px" class="cls_024"><span class="cls_024">lap = cv2.Laplacian(image, cv2.CV_64F)</span></div>
+<div style="position:absolute;left:56.80px;top:249.41px" class="cls_024"><span class="cls_024">lap = np.uint8(np.absolute(lap))</span></div>
+<div style="position:absolute;left:56.80px;top:264.11px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Laplacian"</span><span class="cls_024">, lap)</span></div>
+<div style="position:absolute;left:56.80px;top:293.61px" class="cls_027"><span class="cls_027"># Sobel</span></div>
+<div style="position:absolute;left:56.80px;top:308.41px" class="cls_024"><span class="cls_024">sobelX = cv2.Sobel(image, cv2.CV_64F, </span><span class="cls_026">1</span><span class="cls_024">, </span><span class="cls_026">0</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:323.11px" class="cls_024"><span class="cls_024">sobelY = cv2.Sobel(image, cv2.CV_64F, </span><span class="cls_026">0</span><span class="cls_024">, </span><span class="cls_026">1</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:337.91px" class="cls_024"><span class="cls_024">sobelX = np.uint8(np.absolute(sobelX))</span></div>
+<div style="position:absolute;left:56.80px;top:352.61px" class="cls_024"><span class="cls_024">sobelY = np.uint8(np.absolute(sobelY))</span></div>
+<div style="position:absolute;left:56.80px;top:367.41px" class="cls_024"><span class="cls_024">sobelCombined = cv2.bitwise_or(sobelX, sobelY)</span></div>
+<div style="position:absolute;left:56.80px;top:382.11px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Sobel X"</span><span class="cls_024">, sobelX)</span></div>
+<div style="position:absolute;left:56.80px;top:396.91px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Sobel Y"</span><span class="cls_024">, sobelY)</span></div>
+<div style="position:absolute;left:56.80px;top:411.61px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Sobel Combined"</span><span class="cls_024">, sobelCombined)</span></div>
+<div style="position:absolute;left:56.80px;top:441.91px" class="cls_012"><span class="cls_012">Formalmente, a detecção de bordas incorpora métodos matemáticos para encontrar pontos em uma</span></div>
+<div style="position:absolute;left:56.80px;top:457.71px" class="cls_012"><span class="cls_012">imagem onde o brilho das intensidades de pixel muda nitidamente.</span></div>
+<div style="position:absolute;left:56.80px;top:480.61px" class="cls_012"><span class="cls_012">Temos que usar números de ponto flutuante aqui porque as transições de gradiente podem ser</span></div>
+<div style="position:absolute;left:56.80px;top:496.41px" class="cls_012"><span class="cls_012">positivas (preto para branco) ou negativas (branco para preto), e estamos trabalhando com valores</span></div>
+<div style="position:absolute;left:56.80px;top:512.31px" class="cls_012"><span class="cls_012">inteiros até agora.</span></div>
+<div style="position:absolute;left:56.80px;top:558.01px" class="cls_012"><span class="cls_012">A primeira coisa que vamos fazer é encontrar o "gradiente" da imagem em tons de cinza,</span></div>
+<div style="position:absolute;left:56.80px;top:573.81px" class="cls_012"><span class="cls_012">permitindo-nos encontrar regiões semelhantes a arestas na direção x e y.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:15318px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background19.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:286.81px" class="cls_019"><span class="cls_019">Detecção de bordas de Canny:</span></div>
+<div style="position:absolute;left:74.80px;top:334.41px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Convertemos para escala de cinza,</span></div>
+<div style="position:absolute;left:74.80px;top:357.21px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Realizamos redução de ruído (desfocagem), para retirar ruídos de contorno.</span></div>
+<div style="position:absolute;left:74.80px;top:380.11px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Encontramos o gradiente da imagem (utilizando o kernel Sobel em ambos os horizontes</span></div>
+<div style="position:absolute;left:92.80px;top:395.91px" class="cls_012"><span class="cls_012">direção vertical e vertical)</span></div>
+<div style="position:absolute;left:74.80px;top:418.81px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  Etapa de supressão não máxima e limiar de histerese.</span></div>
+<div style="position:absolute;left:56.80px;top:463.11px" class="cls_024"><span class="cls_024">image = cv2.imread(args[</span><span class="cls_025">"image"</span><span class="cls_024">])</span></div>
+<div style="position:absolute;left:56.80px;top:477.91px" class="cls_024"><span class="cls_024">image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)</span></div>
+<div style="position:absolute;left:56.80px;top:492.61px" class="cls_024"><span class="cls_024">image = cv2.GaussianBlur(image, (</span><span class="cls_026">5</span><span class="cls_024">, </span><span class="cls_026">5</span><span class="cls_024">), </span><span class="cls_026">0</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:507.41px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Blurred"</span><span class="cls_024">, image)</span></div>
+<div style="position:absolute;left:56.80px;top:522.11px" class="cls_024"><span class="cls_024">canny = cv2.Canny(image, </span><span class="cls_026">30</span><span class="cls_024">, </span><span class="cls_026">150</span><span class="cls_024">)</span></div>
+<div style="position:absolute;left:56.80px;top:536.91px" class="cls_024"><span class="cls_024">cv2.imshow(</span><span class="cls_025">"Canny"</span><span class="cls_024">, canny)</span></div>
+<div style="position:absolute;left:56.80px;top:567.11px" class="cls_012"><span class="cls_012">Os valores 30 e 150 são os parâmetros threshold1 e threshold2. Qualquer parâmetro</span></div>
+<div style="position:absolute;left:56.80px;top:584.11px" class="cls_012"><span class="cls_012">abaixo de  threshold1 não é uma borda; qualquer parâmetro acima de threshold2 é uma</span></div>
+<div style="position:absolute;left:56.80px;top:601.01px" class="cls_012"><span class="cls_012">borda. Valores intermediários são classificados conforme detalhes não explicados aqui.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:16169px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background20.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:66.71px" class="cls_003"><span class="cls_003">Contornos</span></div>
+<div style="position:absolute;left:56.80px;top:116.81px" class="cls_012"><span class="cls_012">Primeiro, obtemos as bordas da imagem:</span></div>
+<div style="position:absolute;left:56.80px;top:149.81px" class="cls_031"><span class="cls_031">edged =</span><span class="cls_039"> cv2.Canny(blurred, 30, 150)</span></div>
+<div style="position:absolute;left:56.80px;top:178.81px" class="cls_012"><span class="cls_012">Agora, obtemos a lista de contornos:</span></div>
+<div style="position:absolute;left:56.80px;top:211.61px" class="cls_024"><span class="cls_024">(cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL,</span></div>
+<div style="position:absolute;left:56.80px;top:226.41px" class="cls_024"><span class="cls_024">cv2.CHAIN_APPROX_SIMPLE)</span></div>
+<div style="position:absolute;left:56.80px;top:256.61px" class="cls_012"><span class="cls_012">O método cv2.findContours é DESTRUTIVO para a imagem que passa. Se for necessário</span></div>
+<div style="position:absolute;left:56.80px;top:273.61px" class="cls_012"><span class="cls_012">reutilizar sua imagem cortada,  certifique-se de copiá-lo antes de chamar cv2.findContours</span></div>
+<div style="position:absolute;left:74.80px;top:297.61px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O primeiro argumento é a imagem com as bordas detectadas, após o método de Canny.</span></div>
+<div style="position:absolute;left:74.80px;top:320.51px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O segundo argumento é o tipo de contorno que desejamos. Usamos</span></div>
+<div style="position:absolute;left:92.80px;top:337.51px" class="cls_012"><span class="cls_012">cv2.RETR_EXTERNAL para recuperar apenas os contornos mais externos.</span></div>
+<div style="position:absolute;left:74.80px;top:361.51px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O último argumento é como queremos aproximar o contorno.</span></div>
+<div style="position:absolute;left:56.80px;top:384.31px" class="cls_012"><span class="cls_012">Usamos  v2.CHAIN_APPROX_SIMPLE para comprimir segmentos horizontais, verticais e</span></div>
+<div style="position:absolute;left:56.80px;top:401.21px" class="cls_012"><span class="cls_012">diagonais em suas extremidades. Isso economiza computação e memória. Se quiséssemos todos os</span></div>
+<div style="position:absolute;left:56.80px;top:417.21px" class="cls_012"><span class="cls_012">pontos ao longo do contorno, sem compressão, podemos usar cv2.CHAIN_APPROX_NONE;</span></div>
+<div style="position:absolute;left:56.80px;top:434.01px" class="cls_012"><span class="cls_012">Contudo, seria desnecessário e um desperdício de recursos.</span></div>
+<div style="position:absolute;left:56.80px;top:455.51px" class="cls_024"><span class="cls_024">cv2.drawContours(coins, cnts, -1, (0, 255, 0), 2)</span></div>
+<div style="position:absolute;left:74.80px;top:485.81px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O argumento coins é nossa imagem sobre a qual desenharemos os contornos</span></div>
+<div style="position:absolute;left:74.80px;top:508.71px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O argumento cnts é a lista de contornoa obtida por  cv2.findContours</span></div>
+<div style="position:absolute;left:74.80px;top:532.71px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O terceiro argumento é qual contorno quremos desenhar. O valor -1 indica que queremos</span></div>
+<div style="position:absolute;left:92.80px;top:549.61px" class="cls_012"><span class="cls_012">desenhar todos</span></div>
+<div style="position:absolute;left:74.80px;top:572.41px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O quarto argumento india a cor do contorno</span></div>
+<div style="position:absolute;left:74.80px;top:595.31px" class="cls_038"><span class="cls_038">•</span><span class="cls_012">  O quinto indica a espessura do contorno</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-297px;top:17020px;width:595px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="front/background21.jpg" width=595 height=841></div>
+<div style="position:absolute;left:56.80px;top:54.21px" class="cls_040"><span class="cls_040">for</span><span class="cls_033"> (i, c) in enumerate(cnts):</span></div>
+<div style="position:absolute;left:104.80px;top:65.51px" class="cls_033"><span class="cls_033"># Nó</span><span class="cls_040">s</span><span class="cls_033"> podemos pegar o </span><span class="cls_041">"bouding box"</span><span class="cls_033"> de cada contorno:</span></div>
+<div style="position:absolute;left:104.80px;top:76.91px" class="cls_033"><span class="cls_033">(</span><span class="cls_040">x</span><span class="cls_033">, y, </span><span class="cls_040">w</span><span class="cls_033">, </span><span class="cls_040">h</span><span class="cls_033">) = cv2.boundingRect(c)</span></div>
+<div style="position:absolute;left:104.80px;top:99.61px" class="cls_033"><span class="cls_033"># Vamos extrair o contorno usando fatiamento de array:</span></div>
+<div style="position:absolute;left:104.80px;top:110.91px" class="cls_040"><span class="cls_040">print</span><span class="cls_033">(</span><span class="cls_041">"Coin #{}"</span><span class="cls_033">.format(i + </span><span class="cls_042">1</span><span class="cls_033">))</span></div>
+<div style="position:absolute;left:104.80px;top:122.31px" class="cls_033"><span class="cls_033">coin = image[y:y + </span><span class="cls_040">h</span><span class="cls_033">, </span><span class="cls_040">x</span><span class="cls_033">:</span><span class="cls_040">x</span><span class="cls_033"> + </span><span class="cls_040">w</span><span class="cls_033">]</span></div>
+<div style="position:absolute;left:104.80px;top:133.61px" class="cls_033"><span class="cls_033">cv2.imshow(</span><span class="cls_041">"Coin"</span><span class="cls_033">, coin)</span></div>
+<div style="position:absolute;left:104.80px;top:156.31px" class="cls_033"><span class="cls_033"># Vamos construir uma máscara para a moeda, encontrando</span></div>
+<div style="position:absolute;left:104.80px;top:167.71px" class="cls_033"><span class="cls_033"># O círculo que é inscrito no contorno:</span></div>
+<div style="position:absolute;left:104.80px;top:190.41px" class="cls_033"><span class="cls_033">mask = np.zeros(image.shape[:</span><span class="cls_042">2</span><span class="cls_033">], dtype = </span><span class="cls_041">"uint8"</span><span class="cls_033">)</span></div>
+<div style="position:absolute;left:104.80px;top:201.71px" class="cls_033"><span class="cls_033">((centerX, centerY), radius) = cv2.minEnclosingCircle(c)</span></div>
+<div style="position:absolute;left:104.80px;top:213.11px" class="cls_033"><span class="cls_033">cv2.circle(mask, (int(centerX), int(centerY)), int(radius), </span><span class="cls_042">255</span><span class="cls_033">, -</span><span class="cls_042">1</span><span class="cls_033">)</span></div>
+<div style="position:absolute;left:104.80px;top:224.41px" class="cls_033"><span class="cls_033">mask = mask[y:y + </span><span class="cls_040">h</span><span class="cls_033">, </span><span class="cls_040">x</span><span class="cls_033">:</span><span class="cls_040">x</span><span class="cls_033"> + </span><span class="cls_040">w</span><span class="cls_033">]</span></div>
+<div style="position:absolute;left:104.80px;top:235.81px" class="cls_033"><span class="cls_033">cv2.imshow(</span><span class="cls_041">"Masked Coin"</span><span class="cls_033">, cv2.bitwise_and(coin, coin, mask = mask))</span></div>
+<div style="position:absolute;left:56.80px;top:262.11px" class="cls_012"><span class="cls_012">A função cv2.boundingRect() toma o contorno, e então retorna uma tupla da posição x e y</span></div>
+<div style="position:absolute;left:56.80px;top:279.01px" class="cls_012"><span class="cls_012">que o retângulo começa em, seguido pela largura e altura do retângulo.</span></div>
+<div style="position:absolute;left:56.80px;top:301.91px" class="cls_012"><span class="cls_012">Já a  cv2.minEnclosingCircle() pega o contorno e retorna as coordenadas x e y do círculo inscrito</span></div>
+<div style="position:absolute;left:56.80px;top:318.71px" class="cls_012"><span class="cls_012">e seu raio.</span></div>
+</div>
+
+</body>
+</html>
